@@ -2,25 +2,37 @@
 <html>
     <head>
         <title>Portfolio - unu5ab1ew3bsi7e</title>
-        <style>
-            #link {
-                color: black;
-            }
-            #getTrickedLol {
-                color: crimson;
-            }
-        </style>
-        <script>
-            function iWarnedYou() {
-                alert("You've been warned...");
-            };
-        </script>
+        <link rel="stylesheet" src="style.css">
     </head>
     <body>
-        <h1>HAHAHA</h1>
-        <p>told you this w3bsi7e was unu5ab1e, wat wur u thikning?/?!!!!11!!11!1!</p>
-        <a id="link" href="index.html">go home</a>
-        <br>
-        <a id="getTrickedLol" onclick="iWarnedYou();" href="https://www.youtube.com/watch?v=xvFZjo5PgG0">no clicky here</a>
+        <div class="all-contents">
+            <nav>
+                <h1>
+                    Samir's unu5ab1e w3bsi7e
+                </h1>
+                <ul id="nav-ul">
+                    <li class="nav-li">
+                        <a class="nav-a" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-li">
+                        <a class="nav-a" onclick="alert('You are already on this page.')" href="portfolio.html">Portfolio</a>
+                    </li>
+                </ul>
+            </nav>
+            <main>
+                <div class="content">
+                    <h1>
+                        Portfolio
+                    </h1>
+                    <ul id="portfolio">
+                        <li><a href="projects/platformer/">Platformer : A cannon - dodging, collectible - grabbing adventure game for Halleb0t</a></li>
+                        <li><a href="projects/bouncing-box/">Bouncing Box : A project that gives you a taste of game development on the web </a></li>
+                        <li><a href="projects/circularity/">Circularity : A motion poem using random number generation and velocity applied to circle shapes...</a></li>
+                    </ul>
+                </div>
+            </main>
+        </div>
+        <script>
+        </script>
     </body>
 </html>
